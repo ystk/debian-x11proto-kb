@@ -1,3 +1,45 @@
+x11proto-kb (1.0.6-2) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Add missing epoch to xorg-sgml-doctools build-dep.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 16 Jun 2012 21:12:01 +0000
+
+x11proto-kb (1.0.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Build and ship the XKB spec.
+  * Remove David Nusinow and Andres Salomon from Uploaders.
+  * Don't require (fake)root for debian/rules clean.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 15 Apr 2012 17:16:56 +0200
+
+x11proto-kb (1.0.5-2) unstable; urgency=low
+
+  * Mark x11proto-kb-dev Multi-Arch: foreign
+  * Install .pc file to /usr/share/pkgconfig instead of
+    /usr/lib/pkgconfig
+
+ -- Steve Langasek <vorlon@debian.org>  Fri, 17 Jun 2011 08:58:41 -0700
+
+x11proto-kb (1.0.5-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Remove myself from Uploaders.
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+
+  [ Robert Hooker ]
+  * New upstream release.
+
+  [ Cyril Brulebois ]
+  * Switch from --list-missing to --fail-missing for additional safety.
+  * Add pkg-config build-dep.
+  * No longer pass --disable-shared, this option is gone.
+  * Add myself to Uploaders.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 03 Nov 2010 01:41:58 +0100
+
 x11proto-kb (1.0.4-1) unstable; urgency=low
 
   [ Timo Aaltonen ]
